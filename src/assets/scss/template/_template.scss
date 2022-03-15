@@ -1,0 +1,27 @@
+.vertical-align {
+  vertical-align: middle;
+}
+
+.header {
+  background-color: red;
+  background: red;
+
+  .columns {
+    padding-bottom: 0;
+    padding: 20px !important;
+
+    h1 {
+      color: white;
+    }
+  }
+}
+
+.footer {
+  background-color: rgb(0, 68, 255);
+  color: white;
+
+  .columns {
+    background-color: rgb(0, 68, 255);
+    padding: 10px;
+  }
+}
