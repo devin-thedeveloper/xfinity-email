@@ -32,6 +32,8 @@
 .free-movies-week {
   background: #6138f6;
   background-color: #6138f6;
+  position: relative;
+  bottom: 1px;
 
   img {
     max-width: 428px;
@@ -60,6 +62,8 @@
   background-color: #6138f6;
   padding: 0 !important;
   margin: 0 !important;
+  position: relative;
+  bottom: 2px;
 
   .columns {
     padding: 0 !important;
@@ -77,6 +81,8 @@
 .discover {
   background: #6138f6;
   background-color: #6138f6;
+  position: relative;
+  bottom: 3px;
 
   h2 a {
     color: #fff;
@@ -88,6 +94,8 @@
 .favorite-titles {
   background: #6138f6;
   background-color: #6138f6;
+  position: relative;
+  bottom: 4px;
 
   .columns {
     padding: 0 !important;
@@ -99,6 +107,16 @@
     padding: 0 !important;
     margin: 0 !important;
   }
+}
+
+.favorite-titles_second-row {
+  position: relative;
+  bottom: 5px;
+}
+
+.favorite-titles-btn {
+  position: relative;
+  bottom: 6px;
 }
 
 .apple-tv {
@@ -131,15 +149,25 @@
   }
 }
 .apple-tv_shows {
+  background: #fff;
+  background-color: #fff;
+
   img {
     max-width: 250px;
     margin: 0 !important;
   }
 }
 
+.white-spacer {
+  background: #fff;
+  background-color: #fff;
+}
+
 .voice-remote {
   background: #fff;
   background-color: #fff;
+  position: relative;
+  bottom: 1px;
 
   div {
     text-align: center;
@@ -247,6 +275,17 @@
   .footer-menu {
     p {
       text-align: center !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .free-movies-week {
+    img {
+      width: 270px !important;
+    }
+    h1 {
+      font-size: 26px !important;
     }
   }
 }
