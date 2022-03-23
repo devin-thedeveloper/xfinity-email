@@ -318,7 +318,9 @@ span.preheader {
 
 .free-movies-week {
   background: #6138f6;
-  background-color: #6138f6; }
+  background-color: #6138f6;
+  position: relative;
+  bottom: 1px; }
   .free-movies-week img {
     max-width: 428px; }
   .free-movies-week h1 a {
@@ -340,7 +342,9 @@ span.preheader {
   background: #6138f6;
   background-color: #6138f6;
   padding: 0 !important;
-  margin: 0 !important; }
+  margin: 0 !important;
+  position: relative;
+  bottom: 2px; }
   .dune .columns {
     padding: 0 !important;
     margin: 0 !important; }
@@ -352,7 +356,9 @@ span.preheader {
 
 .discover {
   background: #6138f6;
-  background-color: #6138f6; }
+  background-color: #6138f6;
+  position: relative;
+  bottom: 3px; }
   .discover h2 a {
     color: #fff;
     font-weight: 600;
@@ -360,7 +366,9 @@ span.preheader {
 
 .favorite-titles {
   background: #6138f6;
-  background-color: #6138f6; }
+  background-color: #6138f6;
+  position: relative;
+  bottom: 4px; }
   .favorite-titles .columns {
     padding: 0 !important;
     margin: 0 !important; }
@@ -368,6 +376,14 @@ span.preheader {
     max-width: 170px !important;
     padding: 0 !important;
     margin: 0 !important; }
+
+.favorite-titles_second-row {
+  position: relative;
+  bottom: 5px; }
+
+.favorite-titles-btn {
+  position: relative;
+  bottom: 6px; }
 
 .apple-tv {
   background: #fff;
@@ -390,13 +406,22 @@ span.preheader {
     line-height: 22px;
     font-weight: 400; }
 
-.apple-tv_shows img {
-  max-width: 250px;
-  margin: 0 !important; }
+.apple-tv_shows {
+  background: #fff;
+  background-color: #fff; }
+  .apple-tv_shows img {
+    max-width: 250px;
+    margin: 0 !important; }
+
+.white-spacer {
+  background: #fff;
+  background-color: #fff; }
 
 .voice-remote {
   background: #fff;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative;
+  bottom: 1px; }
   .voice-remote div {
     text-align: center; }
   .voice-remote img {
@@ -472,3 +497,9 @@ span.preheader {
 @media only screen and (max-width: 620px) {
   .footer-menu p {
     text-align: center !important; } }
+
+@media only screen and (max-width: 430px) {
+  .free-movies-week img {
+    width: 270px !important; }
+  .free-movies-week h1 {
+    font-size: 26px !important; } }
